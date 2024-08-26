@@ -1,0 +1,38 @@
+<div class="grid-list-1">
+  <div class="breakpoint-desktop">
+    <div class="column3">
+      <b class="heading1">Liste des appartements loués</b>
+      <div class="description">
+        Modifiez, supprimez, ou marquez un appartement comme non disponible.
+      </div>
+    </div>
+    <div class="row">
+      <div class="actions">
+        <div class="styleprimary-smalltrue-dar btn-primary">
+          <div class="link-one">voir plus</div>
+        </div>
+      </div>
+      <div class="styletertiary-smalltrue-da">
+        <img class="chevron-down-icon" alt="" src="/assets/images/icon--dotshorizontalrounded.svg" />
+      </div>
+    </div>
+  </div>
+  <div class="container1">
+    <div class="row1">
+      <div class="card" *ngFor="let apartment of apartments">
+        <img [src]="apartment.image" alt="{{ apartment.title }}" class="placeholder-image-icon" width="100px" height="100px" />
+        <div class="content3">
+          <div class="title">
+            <div class="full-name">{{ apartment.title }}</div>
+          </div>
+          <div class="text1">{{ apartment.description }}</div>
+          <div class="actions1">
+            <div class="stylesecondary-smalltrue-d btn-secondary-admin">
+              <div class="link-one">Gérer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

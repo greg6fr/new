@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/atypikhouse.iml" filepath="$PROJECT_DIR$/.idea/atypikhouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/front-ath.iml" filepath="$PROJECT_DIR$/.idea/front-ath.iml" />
     </modules>
   </component>
 </project>

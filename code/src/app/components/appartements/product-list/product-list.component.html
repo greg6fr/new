@@ -1,0 +1,33 @@
+<div class="product-9">
+  <div class="content63">
+    <!-- Title and Description -->
+    <div class="title12">
+      <div class="subheading2">Tagline</div>
+      <div class="content64">
+        <b class="short-heading-here7">Appartements</b>
+        <div class="lorem-ipsum-dolor13">
+          Trouvez votre cocon pour vos prochaines vacances.
+        </div>
+      </div>
+    </div>
+    <!-- Product Listings -->
+    <div class="content65">
+      <div class="content66">
+        <div class="product" *ngFor="let product of products">
+          <img [src]="product.image" class="placeholder-image-icon28" alt="" />
+
+          <div class="content67">
+            <div class="header">
+              <div class="subheading2">{{ product.name }}</div>
+              <div class="text46">{{ product.description }}</div>
+            </div>
+            <div class="price">{{ product.price }}€</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stylesecondary-smallfalse10">
+    <a href="#" class="link-one9"><button class="styleprimary-smallfalse-da14 btn-primary ">Voir plus</button></a>
+  </div>
+</div>

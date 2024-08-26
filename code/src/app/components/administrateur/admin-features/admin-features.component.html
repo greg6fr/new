@@ -1,0 +1,25 @@
+<div class="layout-237">
+  <div class="container5">
+    <div class="content13">
+      <b class="short-heading-here2">Fonctionnalités de l'Administrateur</b>
+      <div class="lorem-ipsum-dolor2">
+        Accédez à toutes les fonctionnalités de gestion de l'administrateur pour gérer les utilisateurs, les annonces et les réservations.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="layout-3" *ngFor="let feature of adminFeatures">
+  <div class="stylesecondary-smallfalse btn-secondary-admin">
+    <div class="button10">{{ feature.title }}</div>
+  </div>
+  <div class="container6">
+    <div class="content15">
+      <b class="short-heading-here2">{{ feature.heading }}</b>
+      <div class="lorem-ipsum-dolor2">
+        <p>{{ feature.description1 }}</p>
+        <p>{{ feature.description2 }}</p>
+      </div>
+    </div>
+    <img [src]="feature.image" alt="Feature Image" class="placeholder-image-icon7"/>
+  </div>
+</div>
